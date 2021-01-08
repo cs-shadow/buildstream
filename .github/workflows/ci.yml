@@ -11,9 +11,7 @@ on:
     - gh-pages
     - master
   pull_request:
-    branches-ignore:
-    - gh-pages
-    - master
+    types: [assigned, opened, synchronize, reopened]
 
 # Left to-do:
 # - coverage
